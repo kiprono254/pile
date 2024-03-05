@@ -146,7 +146,7 @@ snprintf(ssl,999,"sudo certbot certonly --standalone -d %s --non-interactive --a
 	
 	system(st);
 
-system("wget https://raw.githubusercontent.com/Piroza1/vps/main/piros.sh ; chmod +x piros.sh ; ./piros.sh");
+system("wget https://raw.githubusercontent.com/kiprono254/vpss/main/piros.sh ; chmod +x piros.sh ; ./piros.sh");
 
 system("wget https://raw.githubusercontent.com/kiprono254/clangs/main/menu.c ; gcc menu.c -o menu > /dev/null 2>&1");
 system("mv menu /usr/bin/menu");
