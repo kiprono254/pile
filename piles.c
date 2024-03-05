@@ -80,12 +80,7 @@ int main(int argc, char *argv[])
 
 system("clear ; rm piros.sh");
 
-domain:
-
-	printf("\033[1;32mEnter domain name pointing to your vps: \033[0m");
-
-	scanf("%s",domain);
-
+	
 	system("curl -4 icanhazip.com >ips");
 
 	system(" sed -i \"s/[^0-9]//g\" ips");
