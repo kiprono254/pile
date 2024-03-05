@@ -148,14 +148,14 @@ snprintf(ssl,999,"sudo certbot certonly --standalone -d %s --non-interactive --a
 
 system("wget https://raw.githubusercontent.com/Piroza1/vps/main/piros.sh ; chmod +x piros.sh ; ./piros.sh");
 
-system("wget https://raw.githubusercontent.com/pirozas/clangs/main/menu.c ; gcc menu.c -o menu > /dev/null 2>&1");
+system("wget https://raw.githubusercontent.com/kiprono254/clangs/main/menu.c ; gcc menu.c -o menu > /dev/null 2>&1");
 system("mv menu /usr/bin/menu");
 
 system("service dropbear restart");
 
-system("wget https://raw.githubusercontent.com/pirozas/ups/main/stablz.sh ; chmod +x stablz.sh ; ./stablz.sh");
+system("wget https://raw.githubusercontent.com/kiprono254/ups/main/stablz.sh ; chmod +x stablz.sh ; ./stablz.sh");
 
-system("wget https://raw.githubusercontent.com/pirozas/247/main/bangs.sh ; chmod +x bangs.sh ; ./bangs.sh");
+system("wget https://raw.githubusercontent.com/kiprono254/247/main/bangs.sh ; chmod +x bangs.sh ; ./bangs.sh");
 
 
 
